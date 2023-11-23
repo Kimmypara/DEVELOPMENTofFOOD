@@ -1,4 +1,35 @@
-img {
+.banner{
+    position: relative;
+}
+
+.img{
     max-width: 100%;
     height: auto;
 }
+
+.title{
+    color:#971b1e ;
+    
+}
+
+.title h1{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 60pt;   
+}
+
+.title h2{
+    position: absolute;
+    top: 38.5%;
+    left: 68%;
+    font-size: 50pt;   
+}
+
+.title h3{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    font-size: 60pt;    
+}
+
