@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 .banner{
     position: relative;
     background-image: url(/assets/images/background.png);
@@ -9,26 +11,16 @@
 }
 
 .title{
-    max-width: 100% ;
-    color:#971b1e ;
-    text-align: right;
+    max-width: 100%;
+    text-align: right; 
+    font-family: 'Arial Rounded MT Bold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
     font-size: 4rem;
-    font-family:Arial Rounded MT  ; 
-    font-style: bold; 
-    width: 100% ;
-    font-size:5vw;
 }
-
-.row .col-5{
-    margin-top: 1rem;
-}
-
-
+    
 .title span {
     font-size: 2.5rem;
     display: block;
     text-align: right;
-    font-size: 5vw;
 }
 
 .button {
@@ -37,15 +29,11 @@
     border: none;
     border-radius: .25em;
     text-align: right;
+    width: 100%;
     text-decoration: none;
-    margin-top: 40px;
-   
+     
 }
 
-.button:hover{
-    background-color: none;
- 
-}
 
 .navbar {
     border-bottom: 1px ;
@@ -56,92 +44,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
 }
 .navbar-nav {
     display: flex;
     list-style: none;
     padding: 0;
 }
+
 .navbar-nav li {
     padding: .5em;
     margin: 0 .5em; 
 }
 
-#search-for-recipe-input{
-    background-color:#e6e6e5 ;
-    padding-top: 1rem;
-    padding-left: .15rem;
-    font-family: 'Open Sans extra bold';
-    font: 1em sans-serif;
-    font-size: .75rem;
-    border: none;
-    
-}
 
-a {
-    color:  black;
-    font-family: 'Open Sans extra bold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-}
-
-header h1{
-    font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #971b1e;
-    font-size: 2rem;
-    text-align: center;
-    font-size: 2vw;
-}
-h2{
-    font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    font-size: 2rem;
-    text-align: left;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-    font-size: 2vw;
-}
-
-img{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2rem;
-  width: 100%;
-}
-
-p{
-    font-family: 'Open sans Bold ','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-size: 1.5vw;
-}
-button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-  }
-
-  
-  svg {
-    color: #214f26;
-    fill: currentColor;
-    width: 3rem;
-    height: 3rem;
-    padding: 10px;
-  }
-  input {
-    all: unset;
-    font: 16px ;
-    font-family: 'Open Sans extra bold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    height: 100%;
-    opacity: 50% ;
-    width: 100%;
-    padding: 6px 10px;
-  }
-  form {
+form {
     background-color: #e6e6e5;
     width: 300px;
     height: 44px;
@@ -150,3 +66,66 @@ button {
     flex-direction: row;
     align-items: center;
   }
+
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  svg {
+    color:#214f26 ;
+    fill: currentColor;
+    width: 3rem;
+    height: 3rem;
+    padding: 10px;
+  }
+
+.navbar a {
+    color:  black;
+    font-family: 'Open Sans extra bold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+header h1{
+    font-family: 'Open Sans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #971b1e;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+ h2{
+    font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    width: 100%;
+    color: black;
+    font-family: 'Open sans Bold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5rem;
+}
